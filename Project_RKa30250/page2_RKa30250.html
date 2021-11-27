@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Raman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attend online classes</title>
+    <link rel="stylesheet" href="css/page2_RKa30250.css">
+    <link rel="stylesheet" href="css/form_RKa30250.css">
+    <script src="script/page2_RKa30250.js"></script>
+
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul>
+            <div class="logo"><img src="images/logo2.jpg" alt="logo"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2_RKa30250.html">Online Cooking Classes</a></li>
+            <li><a href="page3_RKa30250.html">About Us</a></li>
+        </ul>
+    </nav>
+
+
+    <article>
+        <p id="heading">Learn your favourite food just in one click</p>
+
+        <form action="" method="get" id="mySecondform">
+            <fieldset id="secondPage">
+                <div>
+                    <span id="firstvideo">
+                        <label for="Italian Food"> Italian Food:</label>
+                        <input type="radio" name="italianfood" value="media/Spaghetti.mp4"
+                            onclick="playItalianFood(this)">Spaghetti
+                        <input type="radio" name="italianfood" value="media/lasagna.mp4"
+                            onclick="playItalianFood(this)">Lasagna
+                        <input type="radio" name="italianfood" value="media/Swordfish.mp4"
+                            onclick="playItalianFood(this)">Swordfish
+
+                    </span>
+                    <div>
+                        <p id="videos">
+                            <video src="" id="italianfood" width="350px" height="200px" controls>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <span id="secondvideo">
+                        <label for="indianFood"> Indian Food:</label>
+                        <input type="radio" name="indianFood" value="media/dalmakhni.mp4"
+                            onclick="playIndianFood(this)">Dal Makhni
+                        <input type="radio" name="indianFood" value="media/masala.mp4"
+                            onclick="playIndianFood(this)">Chana Masala
+                        <input type="radio" name="indianFood" value="media/fish.mp4" onclick="playIndianFood(this)">Fish
+                        Curry
+                    </span>
+                    <div>
+                        <p id="videos">
+                            <video src="" id="indianfood" width="350px" height="200px" controls>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <span id="thirdvideo">
+                        <label for="Healthy Food">Healthy Food:</label>
+                        <input type="radio" name="healthyfood" value="media/salad.mp4"
+                            onclick="playhealthyFood(this)">Salad
+                        <input type="radio" name="healthyfood" value="media/salmon.mp4"
+                            onclick="playhealthyFood(this)">Salmon
+                        <input type="radio" name="healthyfood" value="media/vegge.mp4"
+                            onclick="playhealthyFood(this)">Vegetable Soup
+                    </span>
+                    <div>
+                        <p id="videos">
+                            <video src="" id="healthyfood" width="350px" height="200px" controls>
+                        </p>
+
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </article>
+    <footer id="footer">
+
+        My Online Cooking Classes &copy; Raman, CSIS-1280 Fall 2021
+        <hr>
+        <p>Address:<br>
+            Northwest "cook For Me " Academy<br>
+            1221street, New Westminster, BC Canada
+
+            F: (604)-123-4567
+
+        </p>
+    </footer>
+
+
+
+
+</body>
+
+</html>

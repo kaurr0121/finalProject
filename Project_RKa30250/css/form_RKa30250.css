@@ -1,0 +1,90 @@
+form{
+    display: flex;
+    padding: 5px;
+    margin: 50px;
+    margin-top: 10px;
+    color: blanchedalmond;
+    font-weight: bold;
+
+}
+legend{
+    background-color:chocolate;
+    border-radius: 5px;
+    color: snow;
+    padding: 10px;
+    margin: 25px;
+    font-size: 15px;
+}
+label{
+    font-size: 22px;
+}
+fieldset{
+    width: 40%;
+    min-height: 200px;
+    border-radius: 10px;
+    margin: 5px;
+}
+fieldset>div{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;   
+}
+fieldset>div >*{
+    flex: 1 1 100px;
+    margin: 5px 5px;
+    padding: 5px 5px;   
+}
+fieldset>div >span>*{
+    flex: 1 1 200px;
+    margin: 5px 5px;
+    padding: 5px 5px;   
+}
+input[type="submit"]{
+    background-color:chocolate;
+    color: snow;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+/*Second Page*/
+#heading{
+
+    margin-top: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 2em;
+    color: wheat;
+}
+#mySecondform{
+    display: flex;
+    padding: 5px;
+    margin: 50px;
+    margin-top: 50px;
+    color: blanchedalmond;
+    justify-content: center;
+
+}
+/* Fieldset */
+#secondPage{
+    width: 95%;
+    border-radius: 10px;
+    margin: 5px;
+    
+    
+}
+#secondPage>div{
+    font-size: 20px;
+    color:wheat;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+#secondPage>div>span>*{
+    margin:5px 8px;
+    padding: 1%;
+    text-align: center;
+}

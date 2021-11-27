@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color:teal;   
+}
+
+
+.logo{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+   
+}
+.logo img{
+    
+    width: 18%;
+    border: 2px solid black;
+    border-radius: 90px
+}
+
+.navigation ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style-type:none;
+    justify-content: center;
+    text-align: center;
+   
+    
+    
+}
+.navigation ul li{
+    width:20%;
+    margin-top: 25px;
+    color: snow;
+    font-size: 15pt;
+    font-weight: bold;
+   
+   
+}
+.navigation > ul > li > a{
+    display: block; 
+    color: snow;
+    border-radius: 55px;
+    text-decoration: none;
+}
+
+.navigation > ul > li > a:hover{
+    background-color:grey;
+    color:whitesmoke;
+    
+}
+body{
+    width: 100%;
+    margin: auto;
+    background-image: url(../images/pagge2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+#videos{
+    border-radius: 10px;
+   display: flex;
+    margin-left: 200px;
+    margin-top: 0px;
+    
+}
+#firstvideo{
+   
+    margin-top: 90px;
+}
+#secondvideo{
+   
+    margin-top: 110px;
+}
+#thirdvideo{
+   
+    margin-top: 115px;
+}
+#footer{
+    clear: right;
+    font-style: italic;
+    height: auto;
+    background-color:rgb(32, 28, 21) ;
+    color: snow;
+    height: auto; 
+    padding: 30px 30px; 
+    
+}

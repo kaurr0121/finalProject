@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color:rgb(95, 65, 25);   
+}
+
+
+.logo{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+   
+}
+.logo img{
+    
+    width: 18%;
+    border: 2px solid black;
+    border-radius: 90px
+}
+nav{
+    background-color: black;
+}
+.navigation ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style-type:none;
+    justify-content: center;
+    text-align: center;
+   
+    
+    
+}
+.navigation ul li{
+    width:20%;
+    margin-top: 25px;
+    color: snow;
+    font-size: 15pt;
+    font-weight: bold;
+   
+   
+}
+.navigation > ul > li > a{
+    display: block; 
+    color: snow;
+    border-radius: 55px;
+    text-decoration: none;
+}
+
+.navigation > ul > li > a:hover{
+    background-color:grey;
+    color:whitesmoke;
+    
+}
+body{
+    width: 100%;
+    margin: auto; 
+      
+}
+
+h1{
+    text-align: center;
+    color: snow;
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+    color:darkgoldenrod;
+}
+/* Horizontal Line*/
+#about{
+    margin-left: 610px;
+    width: 150px;
+}
+
+section>p{
+    
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin:auto;
+    margin-bottom: 5px;
+    color:antiquewhite;
+    font-size: 1.5em;
+    justify-content: space-around;
+}
+#sec2>div{
+    display: flex;
+    width: 60%;
+    flex-flow: row wrap;
+    margin: auto;
+    text-align: center;
+    justify-content: space-evenly;
+}
+#sec3>div{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom:10px;
+}
+#aboutchef{
+    display: flex;
+    color: snow;
+    font-size: 20px;
+    color:antiquewhite;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: space-around;
+
+}
+img{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 50px
+}
+
+
+#footer{
+    font-style: italic;
+    height: auto;
+    background-color:rgb(32, 28, 21) ;
+    color: snow;
+    height: auto; 
+    padding: 30px 30px; 
+
+    
+    
+}

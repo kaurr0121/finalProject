@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Raman">
+    <link rel="stylesheet" href="css/index_RKa30250.css">
+    <link rel="stylesheet" href="css/form_RKa30250.css">
+    <script src="script/Index_RKa30250.js"></script>
+    <title>Cook For Me online cooking classes</title>
+</head>
+
+<body>
+
+    <nav class="navigation">
+        <ul>
+            <div class="logo"><img src="images/logo2.jpg" alt="logo"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2_RKa30250.html">Online Cooking Classes</a></li>
+            <li><a href="page3_RKa30250.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <div>
+            <h1>Contact Us</h1>
+        </div>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Book an appointment</legend>
+                <div>
+                    <label for="fullname">Your Full Name</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="John Smith" required>
+                </div>
+
+                <div>
+                    <label for="emailAddress">Email Address</label>
+                    <input type="email" name="emailAddress" id="emailAddress" placeholder="john12@gmail.com" required>
+                </div>
+                <div>
+                    <label for="contactnumber">Contact Number</label>
+                    <input type="number" name="contactnumber" id="contactnumber" placeholder="nnnnnnnnnn"
+                        pattern="\d{7}" required>
+                </div>
+
+                <div>
+                    <label for="date">Date</label>
+                    <input type="Date" name="date" id="date" min="2021-11-24" required>
+                </div>
+                <div>
+                    <label for="instructor">Instructor</label>
+                    <select name="instructor" id="instructor" class="required">
+                        <option>Select Your Instuctor</option>
+                        <option>Alexander</option>
+                        <option value="">S. William</option>
+                        <option value="">Sameul</option>
+                        <option value="">Jose</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit" name="preview" value="Submit" onclick="submitForm(this.form)">
+                </div>
+            </fieldset>
+
+            <div id="websitename">
+                <div id="content">
+                    <p>Welcome<br></p>
+                    <p>To<br></p>
+                    <p>"Cook For Me"</p>
+                    <p> Cooking classes</p>
+                </div>
+
+            </div>
+        </form>
+    </article>
+    <footer id="footer">
+
+        My Online Cooking Classes &copy; Raman, CSIS-1280 Fall 2021
+        <hr>
+        <p>Address:<br>
+            Northwest "cook For Me " Academy<br>
+            1221street, New Westminster, BC Canada
+
+            F: (604)-123-4567
+
+        </p>
+
+
+    </footer>
+
+</body>
+
+</html>
